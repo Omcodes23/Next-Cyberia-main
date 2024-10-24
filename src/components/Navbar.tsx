@@ -88,6 +88,10 @@ function Navbar({ className }: { className?: string }) {
           <MenuItem setActive={setActive} active={active} item="Timeline">
           </MenuItem>
         </Link>
+        <Link href="/Team">
+          <MenuItem setActive={setActive} active={active} item="Team">
+          </MenuItem>
+        </Link>
         <Link href="/">
           <img src="/Logo/75.png" alt="75" className="w-12 h-12 ml-5" />
         </Link>

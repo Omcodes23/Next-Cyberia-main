@@ -8,7 +8,7 @@ export default function About() {
     <>
     <LayoutGridDemo/>
      {/* <GridPatternDashed /> */}
-    {/* <AnimatedBeamDemo/> */}
+    <AnimatedBeamDemo/>
      {/* <IconCloudDemo/> */}
     </>
     
