@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 export function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center justify-center">
-      <Navbar className="top-2" />
+      <Navbar className="top-3" />
       {/* <p className="text-black dark:text-white">
         The Navbar will show on top of the page
       </p> */}
@@ -19,18 +19,18 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn("fixed top-10  max-w-xl mx-auto z-50 ", className)}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Services">
+        {/* <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Products">
+        </MenuItem> */}
+        {/* <MenuItem setActive={setActive} active={active} item="Products">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Algochurn"
@@ -57,18 +57,39 @@ function Navbar({ className }: { className?: string }) {
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
           </div>
-        </MenuItem>
-        <MenuItem setActive={setActive}  active={active} item="About">
+        </MenuItem> */}
+        {/* <MenuItem setActive={setActive}  active={active} item="About">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
           </div>
-        </MenuItem>
+        </MenuItem> */}
+        <Link href="/">
+          <img src="/Logo/msu.png" alt="msu" className="w-12 h-12 mr-5" />
+        </Link>
+
+
+
+        <Link href="/">
+          <MenuItem setActive={setActive} active={active} item="Home">
+          </MenuItem>
+        </Link>
         <Link href="/About">
           <MenuItem setActive={setActive} active={active} item="About">
           </MenuItem>
+        </Link>
+        <Link href="/Events">
+          <MenuItem setActive={setActive} active={active} item="Events">
+          </MenuItem>
+        </Link>
+        <Link href="/Timeline">
+          <MenuItem setActive={setActive} active={active} item="Timeline">
+          </MenuItem>
+        </Link>
+        <Link href="/">
+          <img src="/Logo/75.png" alt="75" className="w-12 h-12 ml-5" />
         </Link>
       </Menu>
     </div>

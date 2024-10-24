@@ -5,9 +5,11 @@ import { SparklesPreview } from "@/components/Sparkel";
 import InfiniteMovingCardsDemo from "@/components/Review";
 import { GoogleGeminiEffectDemo } from "@/components/Gemini";
 import AppleCardsCarouselDemo from "@/components/Glimsump";
+import Preloader from "@/components/Preloader";
 export default function Home() {
   return (
     <>
+    {/* <Preloader/> */}
       <SparklesPreview />
       <Astor/>
       <GoogleGeminiEffectDemo />

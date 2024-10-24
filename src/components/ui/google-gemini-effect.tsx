@@ -24,15 +24,17 @@ export const GoogleGeminiEffect = ({
       <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
         {title || ``}
       </p>
-      <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto">
+      <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-20 max-w-lg mx-auto">
         {description ||
-          ``}
+          `connect your heart With Us`}
       </p>
+        <a href="https://linktr.ee/Cyberia_24?fbclid=PAZXh0bgNhZW0CMTEAAaYD5jqYZljCFUMK2VbW6bLx-KysVqihbZH5Uc__YdE9-4UHsvUQKEQFuWM_aem_TTdtArZ3TO9gGLy-biQpHw">
       <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center absolute ">
-        <button className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto ">
-          ui.aceternity.com
+        <button className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit  ">
+          CYBERIA
         </button>
       </div>
+        </a>
       <svg
         width="1440"
         height="890"
