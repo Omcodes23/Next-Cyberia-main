@@ -5,7 +5,7 @@ import { SparklesCore } from "./ui/sparkles";
 export function SparklesPreview() {
   return (
     <div className="h-[40rem]  w-full dark:bg-black dark:bg-grid-white/[0.07] bg-black flex flex-col items-center  justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+      <h1 className="md:text-7xl font-SpaceAge text-3xl lg:text-9xl  text-center text-white relative z-20">
         CYBERIA
       </h1>
       <div className="w-[40rem] h-40 relative">

@@ -14,6 +14,10 @@ const config: Config = {
     "./src/**/*.{ts,tsx}",
   ],
   darkMode: ["class"],
+  fontFamily:{
+	myFont : ["myFirstFont"],
+	spaceAgeFont : ["SpaceAge"]
+   },
   theme: {
   	extend: {
   		colors: {

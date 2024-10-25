@@ -12,6 +12,14 @@ body {
   }
 }
 
+
+@font-face {
+  font-family: 'SpaceAge'; 
+  src: url('../../public/SPACE_AGE_1.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
